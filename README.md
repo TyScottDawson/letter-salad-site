@@ -1,21 +1,14 @@
 # Letter Salad — public pages
 
-The privacy policy for the **Letter Salad** iOS app, served by GitHub Pages so it has
-a stable public URL. App Store Connect requires one for external TestFlight testing
-and for App Store review.
+**Moved.** The Letter Salad privacy policy now lives at
+https://tylerscottdawson.com/apps/letter-salad/privacy/ (source: `src/pages/apps/letter-salad/privacy.astro`
+in the tylerscottdawson-site repo). `index.html` here only redirects old links there.
 
-- Live page: https://tyscottdawson.github.io/letter-salad-site/
-- Source: [`index.html`](index.html)
+Once App Store Connect points at the new address, this repository can be deleted.
 
 This repository is public only because GitHub Pages will not serve a public site from
 a private repository on a free plan. The app's own source stays private in
 `TyScottDawson/letter-salad`; nothing here reveals anything about it.
-
-## Editing
-
-Edit `index.html` and push to `main`. GitHub Pages redeploys in a minute or so.
-Update the "Last updated" date at the top of the page whenever the substance changes —
-the page says the edit history is public, and Git provides that.
 
 ## Keep it true
 
